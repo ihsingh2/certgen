@@ -125,7 +125,7 @@ def custom():
     x2 = int(input("Enter the x coordinate of the right edge of name field: "))
     y1 = int(input("Enter the y coordinate of the upper edge of name field: "))
     y2 = int(input("Enter the y coordinate of the lower edge of name field: "))
-    align = input("Enter the alignment of name field (left, center, right): ")
+    align = input("Enter the text alignment of name field (left, center, right): ")
     print('─' * 100)
     lst=[font, color, x1, x2, y1, y2, align]
     return lst
